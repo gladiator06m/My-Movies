@@ -1864,6 +1864,112 @@ ol {
 
 
 /*---------------------
+  Contact
+-----------------------*/
+
+.contact {
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+.contact__form {
+    position: relative;
+    padding-left: 145px;
+}
+
+.contact__form:after {
+    position: absolute;
+    right: -14px;
+    top: -40px;
+    height: 330px;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    content: "";
+}
+
+.contact__form h3 {
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 30px;
+}
+
+.contact__form form .input__item {
+    position: relative;
+    width: 370px;
+    margin-bottom: 20px;
+}
+
+.contact__form form .input__item:before {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    height: 30px;
+    width: 1px;
+    background: #b7b7b7;
+    content: "";
+}
+
+.contact__form form .input__item input {
+    height: 50px;
+    width: 100%;
+    font-size: 15px;
+    color: #b7b7b7;
+    background: #ffffff;
+    border: none;
+    padding-left: 76px;
+}
+
+.contact__form form .input__item input::-webkit-input-placeholder {
+    color: #b7b7b7;
+}
+
+.contact__form form .input__item input::-moz-placeholder {
+    color: #b7b7b7;
+}
+
+.contact__form form .input__item input:-ms-input-placeholder {
+    color: #b7b7b7;
+}
+
+.contact__form form .input__item input::-ms-input-placeholder {
+    color: #b7b7b7;
+}
+
+.contact__form form .input__item input::placeholder {
+    color: #b7b7b7;
+}
+
+.contact__form form .input__item span {
+    color: #b7b7b7;
+    font-size: 20px;
+    position: absolute;
+    left: 15px;
+    top: 13px;
+}
+
+.contact__form form button {
+    border-radius: 0;
+    margin-top: 10px;
+}
+
+.contact__form form textarea {
+    height: 150px;
+    width: 100%;
+    font-size: 15px;
+    color: #b7b7b7;
+    background: #ffffff;
+    border: none;
+    padding-left: 76px;
+    padding-top: 15px;
+}
+
+contact__form form textarea::-webkit-input-placeholder {
+    color: #b7b7b7;
+}
+
+
+/*---------------------
   Footer
 -----------------------*/
 
